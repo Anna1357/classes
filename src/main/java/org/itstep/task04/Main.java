@@ -24,5 +24,9 @@ package org.itstep.task04;
 public class Main {
     public static void main(String[] args) {
         // FIXME: здесь пример использования класса
+        Fraction f1 = new Fraction(1,3); // 1/2
+        Fraction f2 = new Fraction(1,2); // 1/2
+        Fraction f3 = f1.addition( f2 ); // 1/2 + 1/2 = 1/1
+        System.out.println(f1 + " + " + f2 + " = " + f3);
     }
 }

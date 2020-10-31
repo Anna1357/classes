@@ -1,5 +1,6 @@
 package org.itstep.task03;
-
+import java.util.Scanner;
+import org.itstep.task02.City;
 /**
  * Задание 3
  * <p>
@@ -33,6 +34,12 @@ package org.itstep.task03;
  */
 public class Main {
     public static void main(String[] args) {
+        Scanner scanner=new Scanner(System.in);
         // FIXME: здесь пример использования класса
+    }
+    public static String addCity(String[]cities,int n,String city)
+    {
+
+       return "";
     }
 }

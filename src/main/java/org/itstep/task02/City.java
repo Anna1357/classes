@@ -8,7 +8,7 @@ public class City {
     private String index;
     private String code;
 
-City(){
+public City(){
     name="Dnepr";
     region="Dnepropetrovskaya";
     country="Ukraine";

@@ -1,5 +1,5 @@
 package org.itstep.task05;
-
+import java.util.Scanner;
 /**
  * Создать  класс  Money  (Деньги)  для  работы  с  денежными  суммами.
  * <p>
@@ -31,6 +31,12 @@ package org.itstep.task05;
  */
 public class Main {
     public static void main(String[] args) {
+Money mon=new Money(3, (byte) 5 );
+mon.getKopecks();
+        System.out.println("vvedite gr i kop");
+        Scanner scanner= new Scanner( System.in );
+
+
 
     }
 }

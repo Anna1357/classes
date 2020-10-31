@@ -22,6 +22,11 @@ package org.itstep.task06;
  */
 public class Main {
     public static void main(String[] args) {
-
+MainString s1=new MainString();
+        System.out.println( "s1 = " + s1 );
+        MainString s2=new MainString("Hello");
+        System.out.println( "s2 = " + s2 );
+        MainString s3=new MainString('*',10);
+        System.out.println( "s3 = " + s3 );
     }
 }
